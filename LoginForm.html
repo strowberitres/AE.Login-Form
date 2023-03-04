@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+            body
+            {
+                background: ivory;
+            }
+
+            .container
+            {
+                background-color: bisque;
+                width: 500px;
+                height: 250px;
+                border-radius: 20px;
+                margin: auto;
+            }
+
+            h1
+            {
+                text-align: center;
+                padding: 30px;
+                margin-top: 50px;
+
+            }
+
+            #fname 
+            {
+                margin-left: 140px;
+                width: 200px;
+            }
+
+            #pass 
+            {
+                margin-left: 140px;
+                width: 200px;
+            }
+
+            #button
+            {
+                margin-left: 30px;
+            }
+
+            #check
+            {
+                margin-left: 130px;
+                font-size: 30px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <h1>LOGIN FORM</h1>
+        
+        <form action="/action_page.php" method="get" id="nameform">
+            <input type="text" id="fname" placeholder="Username" required>
+            <p></p>
+            <input type="password" id="pass" placeholder="Password" required>
+            <p></p>
+            <input type="checkbox" id="check">
+            <label for="check">Forgot Password?</label>
+            <button type="submit" form="nameform" id="button" value="Submit">Login</button>
+            
+        </form>
+
+        </div>
+
+    </body>
+</html>
